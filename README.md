@@ -7,3 +7,44 @@
     de API bem construída e fácil de compreender, com o OpenAPI, também conhecido como Swagger.</p>
     <p>E para finalizar o projeto, usarei o Railway, uma plataforma que torna o Deploy de soluções na nuvem muito mais simples. Assim, podemos nos concentrar no que realmente importa:
       o desenvolvimento das nossas soluções!
+
+### Diagrama de classes
+
+```mermaid
+
+classDiagram
+    class User {
+        - String name
+        - Account account
+        - List~Feature~ features
+        - Card card
+        - List~News~ news
+    }
+    
+    class Account {
+        - String number
+        - String agency
+        - double balance
+        - double limit
+    }
+    
+    class Feature {
+        - String icon
+        - String description
+    }
+    
+    class Card {
+        - String number
+        - double limit
+    }
+    
+    class News {
+        - String icon
+        - String description
+    }
+    
+    User --> Account
+    User --> Card
+    User --> "*" Feature
+    User --> "*" News
+```
