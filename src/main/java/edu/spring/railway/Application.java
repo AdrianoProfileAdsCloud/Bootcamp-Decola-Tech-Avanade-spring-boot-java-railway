@@ -1,4 +1,4 @@
-package edu.spring.com.spring_boot_java_railway;
+package edu.spring.railway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
