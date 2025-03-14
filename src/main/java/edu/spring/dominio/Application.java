@@ -1,4 +1,4 @@
-package edu.spring.railway;
+package edu.spring.dominio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

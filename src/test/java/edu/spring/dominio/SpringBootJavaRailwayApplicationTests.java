@@ -1,4 +1,4 @@
-package edu.spring.railway;
+package edu.spring.dominio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

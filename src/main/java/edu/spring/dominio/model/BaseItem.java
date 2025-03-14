@@ -1,4 +1,4 @@
-package edu.spring.railway.model;
+package edu.spring.dominio.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

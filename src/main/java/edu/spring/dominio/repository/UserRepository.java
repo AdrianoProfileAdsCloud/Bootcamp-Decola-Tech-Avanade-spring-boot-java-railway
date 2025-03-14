@@ -1,6 +1,6 @@
-package edu.spring.railway.repository;
+package edu.spring.dominio.repository;
 
-import edu.spring.railway.model.User;
+import edu.spring.dominio.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
