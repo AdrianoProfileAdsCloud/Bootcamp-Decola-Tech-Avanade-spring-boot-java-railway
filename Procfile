@@ -1,1 +1,1 @@
-web : java -jar /media/adriano/ProjetosCursos3/Levar para o Google drive/Projetos e BootCamps/Para Finalizar/Avanade - Decola Tech 2025/API REST na Nuvem-Spring Boot 3 Java 17 e Railway/spring-boot-java-railway/build/libs/spring-boot-java-railway-0.0.1-SNAPSHOT.jar
+web : java -jar  build/libs/spring-boot-java-railway-0.0.1-SNAPSHOT.jar
