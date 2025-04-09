@@ -13,7 +13,7 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: create  # Usa update para evitar recriação das tabelas
+      ddl-auto: update  # Usa update para evitar recriação das tabelas
     properties:
       hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
       hibernate.format_sql: true  # Formatar saída SQL
