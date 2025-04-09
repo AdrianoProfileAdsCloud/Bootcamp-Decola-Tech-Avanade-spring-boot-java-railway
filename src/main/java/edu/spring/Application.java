@@ -1,4 +1,4 @@
-package edu.spring.dominio;
+package edu.spring;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.servers.Server;
