@@ -1,25 +1,9 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/railway  # Alterado de localhost para postgres (nome do serviço no Docker)
-    username: postgres
-    password: 123
-    driver-class-name: org.postgresql.Driver
-    hikari:
-      maximum-pool-size: 10
-      connection-timeout: 30000  # 30 segundos
-      idle-timeout: 600000       # 10 minutos
-      max-lifetime: 1800000      # 30 minutos
-      validation-timeout: 5000
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: update  # Usa update para evitar recriação das tabelas
-    properties:
-      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
-      hibernate.format_sql: true  # Formatar saída SQL
-      hibernate.show_sql: true    # Exibir SQL no console
-
-  logging:
-    level:
-      org.hibernate.SQL: DEBUG
-      org.springframework: DEBUG
+      ddl-auto: validate
