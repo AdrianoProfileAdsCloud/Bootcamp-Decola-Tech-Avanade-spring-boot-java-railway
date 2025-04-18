@@ -1,12 +1,12 @@
 {
-  "name":"Adriano",
-  "account":{
+  "name": "Adriano",
+  "account": {
     "number": "000000-0",
     "agency": "0000",
     "balance": 145.65,
     "limit": 1000.00
   },
-  "features":[
+  "features": [
     {
       "icon": "url",
       "description": "descrição da Feature"

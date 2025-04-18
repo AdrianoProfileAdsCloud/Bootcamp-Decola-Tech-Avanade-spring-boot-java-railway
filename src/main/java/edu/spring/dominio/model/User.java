@@ -22,7 +22,7 @@ public class User {
     @OneToMany(cascade = CascadeType.ALL)
     private List<Feature> feature;
 
-    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<News> news;
 
     public Long getId() {
