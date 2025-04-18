@@ -70,7 +70,7 @@ classDiagram
 # Confira mais em...
 
 
-![Publicando](https://drive.google.com/file/d/1tXv95oAMdE_tkaBeUywTP5nlkKFkRByu/view?usp=sharing)
+[🎬 Publicando Sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway](https://drive.google.com/file/d/1Wed5rB0u4UWPA--UsNvb4gjJ8DW46Hp-/view?usp=sharing)
 
 
 
