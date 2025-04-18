@@ -1,7 +1,6 @@
-# Publicando Sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway
-## 🚧 Projeto em construção... 🚧
+# Publicando API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway
 
-<p>Construção de uma API REST do zero!</p> 
+
 <p>Utilizando o Java 17.Para tornar mais produtiva a construção, será empregado o poder do Spring Boot 3, que é amplamente conhecido por potencializar a produtividade
   de desenvolvimento fazendo uso da capacidade de autoconfiguração.</p>
   <p>Simplificação do acesso aos bancos de dados SQL com o auxílio do Spring Data JPA. Durante nosso percurso, será tratada na prática a importância de uma documentação 
